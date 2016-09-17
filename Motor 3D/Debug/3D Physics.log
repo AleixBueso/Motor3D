@@ -1,9 +1,0 @@
-﻿  Main.cpp
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2039: 'g' : is not a member of 'ImGui'
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2065: 'g' : undeclared identifier
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2228: left of '.io' must have class/struct/union
-          type is 'unknown-type'
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2228: left of '.displaysize' must have class/struct/union
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2228: left of '.x' must have class/struct/union
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2228: left of '.DisplaySize' must have class/struct/union
-c:\users\bueso\documents\github\motor3d\motor 3d\main.cpp(54): error C2228: left of '.y' must have class/struct/union
