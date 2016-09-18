@@ -1,8 +1,8 @@
 #include "Random.h"
 
-float Random::RandomFloat()
+float Random::GenerateRandomFloat()
 {
-	static unsigned seed = 2463534242U; //xorshift method
+	static unsigned int seed = 2463534242U; //xorshift method
 
 	seed ^= (seed << 5);
 	seed ^= (seed >> 13);
@@ -11,9 +11,9 @@ float Random::RandomFloat()
 	return seed * (1.0f / 4294967295.0f);
 }
 
-int Random::RandomInt(int min, int max)
+int Random::GenerateRandomInt(int min, int max)
 {
-	static unsigned seed = 2463534242U; //xorshift method
+	static unsigned int seed = 2463534242U; //xorshift method
 
 	seed ^= (seed << 5);
 	seed ^= (seed >> 13);

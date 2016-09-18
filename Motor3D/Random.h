@@ -4,7 +4,7 @@
 class Random
 {
 public:
-	float RandomFloat();
-	int RandomInt(int min, int max);
+	float GenerateRandomFloat();
+	int GenerateRandomInt(int min, int max);
 };
 #endif // !__RANDOM_H__
