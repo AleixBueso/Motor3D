@@ -38,20 +38,7 @@ bool ModuleSceneIntro::CleanUp()
 // Update
 update_status ModuleSceneIntro::Update(float dt)
 {
-	//Create the menu bar
-	if(ImGui::BeginMainMenuBar())
-	{
 
-		if (ImGui::MenuItem("Quit",NULL)) 
-		{
-			return UPDATE_STOP;
-		}
-
-		ImGui::EndMainMenuBar();
-	}
-	
-
-	ImGui::ShowTestWindow();
 	return UPDATE_CONTINUE;
 }
 
