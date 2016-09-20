@@ -14,6 +14,7 @@ public:
 
 	bool CleanUp();
 
-	bool ShowTestWindow;
+	bool ShowTestWindow = false;
+	bool AboutWindow = false;
 
 };

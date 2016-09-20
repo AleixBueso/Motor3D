@@ -41,10 +41,12 @@ public:
 	bool Init();
 	update_status Update();
 	bool CleanUp();
+	void RequestBrowser(const char* link);
 
 private:
 
 	void AddModule(Module* mod);
 	void PrepareUpdate();
 	void FinishUpdate();
+	
 };
