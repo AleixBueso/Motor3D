@@ -15,8 +15,11 @@ public:
 	update_status Update(float dt);
 	bool CleanUp();
 
+	void CreateCubePrimitive();
+
 	
 
 public:
+	Cube_P cube;
 	
 };
