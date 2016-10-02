@@ -2,7 +2,7 @@
 #include "Application.h"
 #include "ModuleModelLoader.h"
 
-#include "Assimp/include/cimport.h"
+#include "Assimp\include\cimport.h"
 #include "Assimp/include/scene.h"
 #include "Assimp/include/postprocess.h"
 #include "Assimp/include/cfileio.h"
@@ -38,6 +38,8 @@ bool ModuleModelLoader::CleanUp()
 
 update_status ModuleModelLoader::Update(float dt)
 {
+	for (uint i = 0; i <= Meshes.size; i++)
+		App->renderer3D->DrawMesh(Meshes[i]);
 
 	return UPDATE_CONTINUE;
 };
